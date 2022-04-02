@@ -16,8 +16,8 @@ not added yet however its simple to replicate what the package will do in the fu
 
 ```
 while True:
-  l=input("> ")
-  if l == "echo":
+  l=str(input("> "))
+  if l.startswith("echo"):
     # if text == 'echo' get text after echo and print via servert.log()
     servert.log(l.split("echo")[1])
  ```
