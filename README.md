@@ -11,6 +11,7 @@ servert.log('hello world')
 ```
 Heres the full command:
 `log(message,error=False,detailedtime=True)`
+
 When set to True error changes the color of the text to red 
 
 When detailed time is False it prints `[14:48:20] text` instead of `[2022-4-2 14:48:20] text`
