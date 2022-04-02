@@ -26,3 +26,4 @@ while True:
     # if text == 'echo' get text after echo and print via servert.log()
     servert.log(l.split("echo")[1])
  ```
+![image](https://user-images.githubusercontent.com/67511181/161389274-eacb02bb-8e3f-4616-b380-c632afd76582.png)
